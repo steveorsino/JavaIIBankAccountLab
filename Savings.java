@@ -24,7 +24,7 @@ public class Savings extends BankAccount {
 	
 	public void DisplayFees() {
 		System.out.println("Account Number: " + "\t" + this.GetAccountNumber() + "\n" +
-				"Interest Rate: " + "\t"+ this.GetInterestRate() + "\n" +
-				"Monthly Fees: " + "\t"+ this.MonthlyFees());
+				"Interest Rate: " + "\t\t"+ this.GetInterestRate() + "\n" +
+				"Monthly Fees: " + "\t\t"+ this.MonthlyFees());
 	}
 }

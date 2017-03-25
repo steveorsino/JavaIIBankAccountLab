@@ -23,9 +23,9 @@ public class Checking extends BankAccount {
 	}
 	
 	public void DisplayFees() {
-		System.out.println("Account Number: " + "\t" + this.GetAccountNumber() + "\n" +
+		System.out.println("Account Number: " + "\t\t" + this.GetAccountNumber() + "\n" +
 				"Number of Checks Written: " + "\t"+ this.numChecksWritten + "\n" +
-				"Monthly Fees: " + "\t"+ this.MonthlyFees());
+				"Monthly Fees: " + "\t\t\t"+ this.MonthlyFees());
 	}
 
 }
